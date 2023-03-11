@@ -2,6 +2,11 @@
 
 /* 
 PALETA DE CORES
+
+#5e548e
+
+#654597
+
 */
 
 * {
@@ -14,7 +19,7 @@ PALETA DE CORES
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: #654597;
+    background-color: #5e548e;
 }
 
 main {
@@ -35,6 +40,9 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -50,4 +58,62 @@ section#login > div#imagem {
     padding: 10px;
 }
 
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
+div#formulario > p {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+form > div.campo {
+    margin: 8px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(112, 81, 142);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #3e385e;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    color: #1a1231;
+    font-size: 1em;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    padding-top: 3px;
+    border: 1px solid #8c81c7;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form > a.botao:hover {
+    background-color: #8c81c7;
+}
+
+form > a.botao > span {
+    font-size: 1.2em; 
+}
