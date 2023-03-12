@@ -64,8 +64,9 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 form > div.campo {
@@ -74,6 +75,22 @@ form > div.campo {
 
 div.campo > label {
     display: none;
+}
+
+#ilogin {
+    width: 87%;
+    height: 2em;
+    border-radius: 5px;
+    border-width: 0.1em;
+    padding: 5px;
+}
+
+#isenha {
+    width: 87%;
+    height: 2em;
+    border-radius: 5px;
+    border-width: 0.1em;
+    padding: 5px;
 }
 
 form > input[type=submit] {

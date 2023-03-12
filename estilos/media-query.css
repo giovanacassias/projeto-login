@@ -10,6 +10,7 @@
 
     #login {
         width: 90vw;
+        height: 450px;
     }
 
     section#login > div#imagem {
@@ -22,6 +23,7 @@
         float: right;
         width: 70%;
         height: 100%;
+        padding: 40px;
     }
 
     #formulario > h1 {
@@ -30,7 +32,26 @@
 
     section > #formulario > p {
         font-size: 1.1em;
+        margin-bottom: 45px;
     }
+
+    #ilogin {
+        width: 93%;
+        height: 2.5em;
+        border-radius: 5px;
+        border-width: 0.1em;
+        padding: 5px;
+    }
+    
+    #isenha {
+        width: 93%;
+        height: 2.5em;
+        border-radius: 5px;
+        border-width: 0.1em;
+        margin-bottom: 25px;
+        padding: 5px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -51,13 +72,37 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
+        padding: 30px;
+        height: 500px;
     }
 
     #formulario > h1 {
-        font-size: 2em;
+        font-size: 2.3em;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     section > #formulario > p {
         font-size: 1.1em;
+        margin-bottom: 45px;
     }
+
+    #ilogin {
+        width: 92%;
+        height: 2.5em;
+        border-radius: 5px;
+        border-width: 0.1em;
+        padding: 5px;
+    }
+
+    #isenha {
+        width: 92%;
+        height: 2.5em;
+        border-radius: 5px;
+        border-width: 0.1em;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+
 }
